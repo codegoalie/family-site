@@ -7,9 +7,16 @@ theme = 'nightfall'
 [params]
 author = "We Are The Marshalls"
 hostname = "TheMarshalls"
+footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
 
 [[params.social]]
 key = 0
 name = "mastodon"
 url = "https://social.mrshll.family"
 rel = "me"  # You can also add rel to social link
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
