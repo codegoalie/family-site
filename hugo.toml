@@ -1,0 +1,15 @@
+baseURL = 'https://mrshll.family/'
+languageCode = 'en-us'
+title = 'The Marshall Family'
+
+theme = 'nightfall'
+
+[params]
+author = "We Are The Marshalls"
+hostname = "TheMarshalls"
+
+[[params.social]]
+key = 0
+name = "mastodon"
+url = "https://social.mrshll.family"
+rel = "me"  # You can also add rel to social link
